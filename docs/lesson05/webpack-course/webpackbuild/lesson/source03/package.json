@@ -1,0 +1,18 @@
+{
+  "name": "webpackbuild",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^1.13.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --colors"
+   
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--调用 html-webpack.plugin 模板插件的标题输出 -->
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+
+<h2><%= htmlWebpackPlugin.options.template %></h2>
+<h2><%= htmlWebpackPlugin.options.title %></h2>
+<script src="./dist/bundle.js"></script>
+</body>
+</html>
